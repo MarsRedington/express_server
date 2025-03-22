@@ -1,0 +1,11 @@
+
+GET http://localhost:3000
+
+### Add user
+
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+    "name": "Bob"
+}
